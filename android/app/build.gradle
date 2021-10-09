@@ -78,7 +78,7 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    enableHermes: false,  // clean and rebuild if changing
+    enableHermes: true,  // clean and rebuild if changing
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"
@@ -120,9 +120,12 @@ def jscFlavor = 'org.webkit:android-jsc:+'
  */
 def enableHermes = project.ext.react.get("enableHermes", false);
 
+
 project.ext.vectoricons = [
         iconFontNames: [ 'MaterialIcons.ttf', 'MaterialCommunityIcons.ttf' ] // Name of the font files you want to copy
 ]
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+
 
 /**
  * Architectures to build native code for in debug.
