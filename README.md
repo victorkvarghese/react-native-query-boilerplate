@@ -8,7 +8,7 @@
 <p float="left">
 <a href='https://github.com/pmndrs/zustand'><img src='https://github.com/pmndrs/zustand/blob/main/bear.jpg' height='240' alt='Zusatnd Logo' aria-label='https://github.com/pmndrs/zustand' /></a>
   
-   <a href=https://reactnavigation.org/'><img src='https://miro.medium.com/max/1400/0*cokvfB_F91juLMEj.jpeg' height='275' alt='React navigation Logo' aria-label='https://reactnavigation.org/' /></a>
+<a href='https://reactnavigation.org/'><img src='https://miro.medium.com/max/1400/0*cokvfB_F91juLMEj.jpeg' height='275' alt='React navigation Logo' aria-label='https://reactnavigation.org/' /></a>
 
 <a href='https://callstack.github.io/react-native-paper/'><img src='https://raw.githubusercontent.com/callstack/react-native-paper/master/docs/assets/images/paper-logo.svg?sanitize=true' height='110' alt='Redux Logo' aria-label='https://callstack.github.io/react-native-paper/' /></a>
 
