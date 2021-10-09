@@ -50,7 +50,7 @@ const AuthNavigator = () => {
 };
 
 const LoggedInNavigator = () => (
-  <LoggedInStack.Navigator>
+  <LoggedInStack.Navigator screenOptions={{ headerShown: false }}>
     <Stack.Screen name="Home" component={Home} />
   </LoggedInStack.Navigator>
 );
@@ -65,10 +65,10 @@ const App: React.FC<IProps> = (props: IProps) => {
 
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         {isLoggedIn ? (
-          <Stack.Screen name="Home" component={LoggedInNavigator} />
+          <Stack.Screen name="HomeStack" component={LoggedInNavigator} />
         ) : (
           <Stack.Screen
-            name="Login"
+            name="LoginStack"
             component={AuthNavigator}
             options={{
               // When logging out, a pop animation feels intuitive

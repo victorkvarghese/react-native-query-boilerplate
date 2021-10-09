@@ -4,7 +4,7 @@
  */
 import React from 'react';
 import { Provider as PaperProvider } from 'react-native-paper';
-
+import { QueryClientProvider } from 'react-query';
 import {
   PaperThemeDefault,
   PaperThemeDark,
@@ -13,6 +13,7 @@ import {
 } from 'app/config/theme-config';
 import Navigator from 'app/navigation';
 import { useStore } from './store';
+import { RNQueryClient } from './services/react-query/query-client';
 
 const EntryPoint: React.FC = () => {
   const isDark = useStore(state => state.isDarkMode);
@@ -21,7 +22,9 @@ const EntryPoint: React.FC = () => {
 
   return (
     <PaperProvider theme={paperTheme}>
-      <Navigator theme={combinedTheme} />
+      <QueryClientProvider client={RNQueryClient}>
+        <Navigator theme={combinedTheme} />
+      </QueryClientProvider>
     </PaperProvider>
   );
 };

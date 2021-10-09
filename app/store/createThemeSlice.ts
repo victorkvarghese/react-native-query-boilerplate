@@ -6,7 +6,7 @@ export interface IThemeSlice {
 }
 
 export const createThemeSlice: StateCreator<IThemeSlice> = set => ({
-  isDarkMode: false,
+  isDarkMode: true,
   toggleTheme: (): void => {
     set(state => ({ isDarkMode: !state.isDarkMode }));
   },

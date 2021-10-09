@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: '/react-dev',
+  baseURL: 'https://rickandmortyapi.com/api',
   responseType: 'json',
   withCredentials: true,
 });
