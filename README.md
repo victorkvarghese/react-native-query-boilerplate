@@ -1,4 +1,4 @@
-# 🚀 React Native Zustand Boilerplate - October 2021
+# 🚀 React Native Zustand Boilerplate 
 
 [![React Native](https://img.shields.io/badge/React%20Native-v0.64.0-green.svg)](https://facebook.github.io/react-native/)
 [![React Navigation V6](https://img.shields.io/badge/React%20Navigation-v6.0-blue.svg)](https://reactnavigation.org/)
