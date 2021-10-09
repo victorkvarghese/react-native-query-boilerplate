@@ -6,6 +6,8 @@
 ## Built using
 
 <p float="left">
+  <a href='https://react-query.tanstack.com/'><img src='https://react-query.tanstack.com/_next/static/images/logo-7a7896631260eebffcb031765854375b.svg' height='110' alt='Zusatnd Logo' aria-label='https://github.com/pmndrs/zustand' /></a>
+  
 <a href='https://github.com/pmndrs/zustand'><img src='https://github.com/pmndrs/zustand/blob/main/bear.jpg' height='240' alt='Zusatnd Logo' aria-label='https://github.com/pmndrs/zustand' /></a>
   
 <a href='https://reactnavigation.org/'><img src='https://miro.medium.com/max/1400/0*cokvfB_F91juLMEj.jpeg' height='275' alt='React navigation Logo' aria-label='https://reactnavigation.org/' /></a>
@@ -19,8 +21,9 @@
 
 ## Features
 - [Typescript](https://www.typescriptlang.org/) support.
-- [Zustand](https://github.com/pmndrs/zustand)
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [React Query](https://react-query.tanstack.com)
+- [Zustand](https://github.com/pmndrs/zustand)
 - [React Navigation](https://reactnavigation.org/) with [Authentication flow](https://reactnavigation.org/docs/auth-flow) baked in & theming support.
 - [React Native Gesture Handler](https://github.com/kmagiera/react-native-gesture-handler)
 - [React Native Paper](https://callstack.github.io/react-native-paper/)- with theming support 
