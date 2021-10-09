@@ -33,7 +33,7 @@
 
 
 ## How this looks
-  <img height="720" src="https://user-images.githubusercontent.com/15869386/84810277-c051fb00-b028-11ea-9351-cbb586ae4fc2.gif" />
+  <img height="720" src="https://user-images.githubusercontent.com/15869386/136666124-76a50fc3-8320-4a79-8256-354334ce7685.gif" />
   
 ## Prerequisites
 
