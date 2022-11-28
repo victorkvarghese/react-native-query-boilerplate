@@ -1,4 +1,4 @@
-# 🚀 React Native Query Boilerplate with Zustand
+# 🚀 React Native Query Boilerplate with Zustand (RN / Expo)
 
 [![React Native](https://img.shields.io/badge/React%20Native-v0.66.0-green.svg)](https://facebook.github.io/react-native/)
 [![React Navigation V6](https://img.shields.io/badge/React%20Navigation-v6.0-blue.svg)](https://reactnavigation.org/)
@@ -20,6 +20,7 @@
 
 
 ## Features
+- [Expo](https://docs.expo.dev/) support. Check expo branch.
 - [Typescript](https://www.typescriptlang.org/) support.
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [React Query](https://react-query.tanstack.com)
