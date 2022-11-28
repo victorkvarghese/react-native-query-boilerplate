@@ -4,7 +4,7 @@
  */
 import React from 'react';
 import { Provider as PaperProvider } from 'react-native-paper';
-import { QueryClientProvider } from 'react-query';
+import { QueryClientProvider } from '@tanstack/react-query';
 import {
   PaperThemeDefault,
   PaperThemeDark,
