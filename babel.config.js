@@ -1,21 +1,23 @@
-module.exports = {
-  presets: ['module:metro-react-native-babel-preset'],
-  plugins: [
-    [
-      'module-resolver',
-      {
-        root: ['.'],
-        alias: {
-          app: './app',
+module.exports = function(api) {
+  api.cache(true);
+  return {
+    presets: ['babel-preset-expo'],
+    plugins: [
+      [
+        'module-resolver',
+        {
+          root: ['.'],
+          alias: {
+            app: './app',
+          },
         },
-      },
+      ],
+      'react-native-reanimated/plugin',
     ],
-    'jest-hoist',
-    'react-native-reanimated/plugin',
-  ],
-  env: {
-    production: {
-      plugins: ['react-native-paper/babel'],
+    env: {
+      production: {
+        plugins: ['react-native-paper/babel'],
+      },
     },
-  },
+  };
 };

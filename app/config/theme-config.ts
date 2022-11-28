@@ -1,5 +1,5 @@
 import {
-  MD3DarkTheme as PaperDarkTheme,
+  DarkTheme as PaperDarkTheme,
   DefaultTheme as PaperDefaultTheme,
 } from 'react-native-paper';
 import {
