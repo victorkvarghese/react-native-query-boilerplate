@@ -20,6 +20,7 @@
 
 
 ## Features
+- [Expo](https://docs.expo.dev/) support. Check expo branch.
 - [Typescript](https://www.typescriptlang.org/) support.
 - [React Hooks](https://reactjs.org/docs/hooks-intro.html)
 - [React Query](https://react-query.tanstack.com)
