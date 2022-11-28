@@ -6,7 +6,7 @@
 ## Built using
 
 <p float="left">
-  <a href='https://react-query.tanstack.com/'><img src='https://react-query.tanstack.com/_next/static/images/logo-7a7896631260eebffcb031765854375b.svg' height='110' alt='Zusatnd Logo' aria-label='https://github.com/pmndrs/zustand' /></a>
+  <a href='https://tanstack.com/query/v4/docs/overview'><img src='https://react-query-v3.tanstack.com/_next/static/images/logo-7a7896631260eebffcb031765854375b.svg' height='110' alt='react query Logo' aria-label='https://github.com/pmndrs/zustand' /></a>
   
 <a href='https://github.com/pmndrs/zustand'><img src='https://github.com/pmndrs/zustand/blob/main/bear.jpg' height='240' alt='Zusatnd Logo' aria-label='https://github.com/pmndrs/zustand' /></a>
   
